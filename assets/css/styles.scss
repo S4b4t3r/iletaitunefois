@@ -1,0 +1,34 @@
+@import 'fonts';
+@import 'palette';
+@import 'media';
+@import 'breakpoints';
+
+body, html{
+    margin: 0; padding: 0;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    @include lg{
+        flex-direction: row;
+    }
+    
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: $base-color;
+    @include lg{
+        width: 310px;
+    }
+}
+
+h1 {
+    font-family: "Butler";
+    font-weight: 900;
+    span {
+        font-weight: 700;
+    }
+}
