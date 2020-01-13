@@ -1,12 +1,5 @@
 @font-face {
   font-family: "Futura";
-  src: url("../fonts/futura/light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Futura";
   src: url("../fonts/futura/lightbt.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
@@ -21,7 +14,7 @@
 
 @font-face {
   font-family: "Futura";
-  src: url("../fonts/futura/Futura Heavy Italic font.ttf") format("truetype");
+  src: url("../fonts/futura/Futura Heavy font.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -40,12 +33,19 @@
   font-style: normal;
 }
 
-body, html {
+html {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  font-size: 62.5%;
+  font-family: "Futura";
+  font-weight: 300;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -53,6 +53,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #FAEEE7;
 }
 
 @media (min-width: 992px) {
@@ -64,24 +65,178 @@ body {
   }
 }
 
-header {
+h1 {
+  font-family: "Butler";
+  font-weight: 900;
+  margin: 20px 0 0 0;
+  color: #FF8BA7;
+  font-size: 6.8rem;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 12rem;
+  }
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: #FAEEE7;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 15px 30px 15px 30px;
+  border-radius: 55px;
+  background-color: #8AC6D1;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+p, a {
+  font-size: 1.8rem;
+  color: #FF8BA7;
+}
+
+p span, a span {
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  p, a {
+    font-size: 2.1rem;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content-wrapper {
   width: 100%;
-  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.langue {
+  font-size: 2.1rem;
+  color: #FF8BA7;
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .langue {
+    display: block;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+  }
+}
+
+.langue span {
+  font-weight: 700;
+}
+
+.content {
+  width: 83%;
+}
+
+@media (min-width: 992px) {
+  .content {
+    max-width: 975px;
+  }
+}
+
+.h2title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.lecture-horaires {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .lecture-horaires {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.lecture-horaires div {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .lecture-horaires div {
+    width: 47.5%;
+  }
+}
+
+footer {
+  font-size: 1.6rem;
+  margin: 20px 0 20px 0;
+  color: #8AC6D1;
+}
+
+footer span {
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  footer {
+    font-size: 2rem;
+  }
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 60px;
   background-color: #FF8BA7;
 }
 
 @media (min-width: 992px) {
   header {
-    width: 310px;
+    width: 300px;
+    height: 100vh;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-right: 10px solid #8AC6D1;
   }
-}
-
-h1 {
-  font-family: "Butler";
-  font-weight: 900;
-}
-
-h1 span {
-  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */

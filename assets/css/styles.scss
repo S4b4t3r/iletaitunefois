@@ -2,33 +2,19 @@
 @import 'palette';
 @import 'media';
 @import 'breakpoints';
-
-body, html{
-    margin: 0; padding: 0;
-}
-
-body{
-    flex-direction: column;
-    display: flex;
-    @include lg{
-        flex-direction: row;
-    }
-    
-}
+@import 'content';
+@import 'footer';
 
 header{
+    position: sticky;
+    top: 0;
     width: 100%;
-    height: 40px;
+    height: 60px;
     background-color: $base-color;
     @include lg{
-        width: 310px;
-    }
-}
-
-h1 {
-    font-family: "Butler";
-    font-weight: 900;
-    span {
-        font-weight: 700;
+        width: 300px;
+        height: 100vh;
+        flex-shrink: 0;
+        border-right: 10px solid $highlight-color;
     }
 }
