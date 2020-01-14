@@ -32,7 +32,8 @@ h1 {
 }
 
 h2{
-    font-size: 2.4rem;
+    font-size: 2.4rem; 
+    margin: 0;
     color: $background;
     display: inline-flex;
     padding: 15px 30px 15px 30px;
@@ -57,6 +58,18 @@ p, a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.image{
+    background-color: $base-color;
+    height: 36vw;
+    @include lg{
+        height: 26vw;
+    }
+
+    @include rwd(1365){
+        height: 100%;
+    }
 }
 
 .content-wrapper{
@@ -87,10 +100,67 @@ a:hover{
     }
 }
 
+.icon{
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+    margin-bottom: -12px;
+}
+
+.accueil-middle{
+    display: flex;
+    flex-direction: column;
+    @include rwd(1365){ // >=1366px width
+        display: grid;
+        width: 100%;
+        max-width: 975px;
+        margin-top: 60px;
+        grid-template-columns: auto auto;
+        grid-template-rows: 235px 260px 85px 85px 185px;
+        grid-column-gap: 80px;
+        grid-row-gap: 50px;
+
+        .accueil-news{
+            .h2title{
+                justify-content: start;
+            }
+        }
+
+        .accueil-kulturpass{
+            grid-column: 2;
+            grid-row: 2;
+            align-self: center;
+            .h2title{
+                justify-content: end;
+            }
+            p{
+                text-align: right;
+            }
+        }
+        .kulturpass-image{
+            grid-area: 2 / 1 / 4 / 2;
+        }
+
+        .accueil-ouverture{
+            grid-area: 4 / 1 / 6 / 3;
+            .h2title{
+                justify-content: start;
+            }
+        }
+        .ouverture-image{
+            grid-area: 3 / 2 / 5 / 3;
+        }
+    }
+}
+
 .h2title{
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-top: 30px;
+    @include rwd(1366){
+        padding:0;
+    }
 }
 
 .lecture-horaires{

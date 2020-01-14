@@ -21,10 +21,9 @@
             <a href="#" class="header-button">Galerie photos</a>
             <a href="#" class="header-button">Livre d'or</a>
             <a href="#" class="header-button">Partenaires</a>
-            <a href="#" class="header-button">Adhésion/a>
+            <a href="#" class="header-button">Adhésion</a>
             <a href="#" class="header-button">Contact</a>
             <a href="#" class="header-button">Newsletter</a>
             <a href="#" class="header-button">Règlement d'ordre intérieur</a>
-
         </div>
     </header>
