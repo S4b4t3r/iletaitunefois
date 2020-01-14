@@ -17,6 +17,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
 
 assets/images/livres
+application/config/config.php
 
 # IDE Files
 #-------------------------

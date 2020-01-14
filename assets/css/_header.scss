@@ -1,0 +1,47 @@
+header{
+    padding: 0 2em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: $base-color;
+    @include lg{
+        width: 300px;
+        height: 100vh;
+        flex-shrink: 0;
+        border-right: 10px solid $highlight-color;
+    }
+}
+
+header h2 {
+    margin-top: 0;
+    font-size: 38px;
+    font-family: futurahvbt;
+    color: white;
+    background: transparent;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Futura;
+    font-weight: 300;
+    color: white;
+    margin-bottom: .5em;
+}
+
+.active {
+    text-decoration: underline white;
+}
