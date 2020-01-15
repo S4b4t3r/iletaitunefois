@@ -3,7 +3,7 @@
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Nos Activités</h1>
+        <h1 style="text-align: center;">Groupe Photo</h1>
 
         <section>
             <p><b>Vidéo Atelier Eric :</b> <a href="http://youtu.be/rJEt-XILrjg">youtu.be/rJEt-XILrjg</a><br/>
