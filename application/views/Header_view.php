@@ -9,6 +9,14 @@
 </head>
 <body>
     <header>
+        <div class="header-content">
+            <div class="hamburger" id="hamburger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+
         <div class="header-container">
             <h2>Menu</h2>
             <a href="#" class="header-button active">Accueil</a>
