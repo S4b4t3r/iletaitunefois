@@ -101,6 +101,12 @@ header h2 {
 }
 
 .header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   text-decoration: none;
   font-size: 24px;
@@ -218,6 +224,25 @@ header h2 {
   font-family: futurahvbt;
   color: white;
   background: transparent;
+}
+
+#dropdownactivitesbutton {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.dropdownactivites {
+  display: none;
+}
+
+.displayflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 html {
@@ -512,6 +537,26 @@ a:hover {
 }
 
 .aide-section p {
+  margin-left: 100px;
+}
+
+.creches-section h2 {
+  font-weight: 200;
+  background-color: #0000;
+  text-decoration: underline;
+  font-size: 2.15em;
+  color: #84D4D8;
+}
+
+.creches-section h3 {
+  padding: 0 30px;
+  font-weight: 400;
+  background-color: #0000;
+  font-size: 2em;
+  color: #84D4D8;
+}
+
+.creches-section p {
   margin-left: 100px;
 }
 

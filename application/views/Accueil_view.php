@@ -1,11 +1,5 @@
 <div class="content-wrapper">
-    <!-- header responsive -->
-    <div class="test" id="test">
-    <h2>Menu</h2>
-        <?php require 'links.php' ?>
-    </div>
-    <script src="<?php echo base_url()?>assets/js/header.js"></script>
-    <!-- header responsive -->
+    <?php include 'header_responsive.php' ?>
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>

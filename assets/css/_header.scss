@@ -39,6 +39,9 @@ header h2 {
 }
 
 .header-button {
+    display: flex;
+    align-items: center;
+
     text-align: center;
     text-decoration: none;
     font-size: 24px;
@@ -128,4 +131,19 @@ header h2 {
     font-family: futurahvbt;
     color: white;
     background: transparent;
+}
+
+#dropdownactivitesbutton {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.dropdownactivites {
+    display: none;
+    
+}
+
+.displayflex {
+    display: flex;
+    flex-direction: column;
 }
