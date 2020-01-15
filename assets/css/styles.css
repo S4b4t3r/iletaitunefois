@@ -289,6 +289,10 @@ h2 {
   }
 }
 
+section p:first-of-type {
+  text-indent: 50px;
+}
+
 p, a {
   font-size: 1.8rem;
   color: #84D4D8;

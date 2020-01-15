@@ -1,5 +1,5 @@
 <?php
-class Aide extends CI_Controller {
+class Partenaires extends CI_Controller {
 	public function index()
 	{
         $data['titre'] = "Il était une fois... - Partenaires";
