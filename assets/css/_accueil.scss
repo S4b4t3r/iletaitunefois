@@ -63,6 +63,7 @@ a:hover{
 .image{
     background-color: $base-color;
     height: 36vw;
+    border-radius: 40px;
     @include lg{
         height: 26vw;
     }
@@ -104,7 +105,7 @@ a:hover{
     height: 36px;
     width: 36px;
     margin: 10px;
-    margin-bottom: -12px;
+    margin-bottom: -10px;
 }
 
 .accueil-middle{

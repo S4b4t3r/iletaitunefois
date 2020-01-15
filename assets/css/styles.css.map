@@ -9,6 +9,7 @@
         "_breakpoints.scss",
         "_header.scss",
         "_accueil.scss",
+        "_aide.scss",
         "_footer.scss"
     ],
     "names": [],
