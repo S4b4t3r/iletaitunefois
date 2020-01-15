@@ -141,7 +141,7 @@ header h2 {
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #FAEEE7;
+  background-color: #f6f8f8;
   margin: 6px 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -169,7 +169,7 @@ header h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #FF8BA7;
+  background: #84D4D8;
 }
 
 @media (min-width: 992px) {
@@ -198,7 +198,7 @@ header h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #FF8BA7;
+  background: #84D4D8;
   -webkit-transition: -webkit-transform ease-in-out 400ms;
   transition: -webkit-transform ease-in-out 400ms;
   transition: transform ease-in-out 400ms;
@@ -292,6 +292,7 @@ h2 {
 p, a {
   font-size: 1.8rem;
   color: #84D4D8;
+  text-decoration: none;
 }
 
 p span, a span {
@@ -508,6 +509,12 @@ a:hover {
 
 .aide-section p {
   margin-left: 100px;
+}
+
+.footer-fill {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 footer {
