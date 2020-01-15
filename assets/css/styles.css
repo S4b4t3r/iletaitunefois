@@ -172,6 +172,12 @@ header h2 {
   background: #FF8BA7;
 }
 
+@media (min-width: 992px) {
+  .test {
+    display: none;
+  }
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,6 +203,12 @@ header h2 {
   transition: -webkit-transform ease-in-out 400ms;
   transition: transform ease-in-out 400ms;
   transition: transform ease-in-out 400ms, -webkit-transform ease-in-out 400ms;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
 }
 
 .menu h2 {
