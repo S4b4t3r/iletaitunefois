@@ -58,7 +58,7 @@ header {
   top: 0;
   width: 100%;
   height: 60px;
-  background-color: #84D4D8;
+  background-color: #62C22B;
 }
 
 @media (min-width: 992px) {
@@ -68,7 +68,7 @@ header {
     height: 100vh;
     -ms-flex-negative: 0;
         flex-shrink: 0;
-    border-right: 10px solid #95df6a;
+    border-right: 10px solid #A6DC86;
   }
 }
 
@@ -147,7 +147,7 @@ header h2 {
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #f6f8f8;
+  background-color: #FAEEE7;
   margin: 6px 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -175,7 +175,7 @@ header h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #84D4D8;
+  background: #62C22B;
 }
 
 @media (min-width: 992px) {
@@ -204,7 +204,7 @@ header h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #84D4D8;
+  background: #62C22B;
   -webkit-transition: -webkit-transform ease-in-out 400ms;
   transition: -webkit-transform ease-in-out 400ms;
   transition: transform ease-in-out 400ms;
@@ -265,7 +265,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f6f8f8;
+  background-color: #FAEEE7;
 }
 
 @media (min-width: 992px) {
@@ -281,7 +281,7 @@ h1 {
   font-family: "Butler";
   font-weight: 900;
   margin: 20px 0 0 0;
-  color: #84D4D8;
+  color: #62C22B;
   font-size: 6.8rem;
 }
 
@@ -298,13 +298,13 @@ h1 span {
 h2 {
   font-size: 2.4rem;
   margin: 0;
-  color: #f6f8f8;
+  color: #FAEEE7;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 15px 30px 15px 30px;
   border-radius: 55px;
-  background-color: #95df6a;
+  background-color: #6ECDFF;
   white-space: nowrap;
 }
 
@@ -320,7 +320,7 @@ section p:first-of-type {
 
 p, a {
   font-size: 1.8rem;
-  color: #84D4D8;
+  color: #62C22B;
   text-decoration: none;
 }
 
@@ -339,7 +339,7 @@ a:hover {
 }
 
 .image {
-  background-color: #84D4D8;
+  background-color: #A6DC86;
   height: 36vw;
   border-radius: 40px;
 }
@@ -372,7 +372,7 @@ a:hover {
 
 .langue {
   font-size: 2.1rem;
-  color: #84D4D8;
+  color: #62C22B;
   display: none;
 }
 
@@ -533,7 +533,7 @@ a:hover {
   background-color: #0000;
   text-decoration: underline;
   font-size: 2.4em;
-  color: #95df6a;
+  color: #6ECDFF;
 }
 
 .aide-section p {
@@ -569,7 +569,7 @@ a:hover {
 footer {
   font-size: 1.6rem;
   margin: 20px 0 20px 0;
-  color: #95df6a;
+  color: #6ECDFF;
 }
 
 footer span {
