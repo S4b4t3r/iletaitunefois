@@ -89,12 +89,15 @@ a:hover{
 
 .langue{
     font-size: 2.1rem;
-    color: $base-color;
+    color: $highlight-color;
     display:none;
     @include lg{
         display: block;
         position: absolute;
         top:14px; right:14px;
+    }
+    a{
+        color: $highlight-color;
     }
     span{
         font-weight: 700;

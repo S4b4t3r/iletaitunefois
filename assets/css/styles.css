@@ -372,7 +372,7 @@ a:hover {
 
 .langue {
   font-size: 2.1rem;
-  color: #62C22B;
+  color: #6ECDFF;
   display: none;
 }
 
@@ -383,6 +383,10 @@ a:hover {
     top: 14px;
     right: 14px;
   }
+}
+
+.langue a {
+  color: #6ECDFF;
 }
 
 .langue span {
@@ -545,7 +549,7 @@ a:hover {
   background-color: #0000;
   text-decoration: underline;
   font-size: 2.15em;
-  color: #84D4D8;
+  color: #62C22B;
 }
 
 .creches-section h3 {
@@ -553,7 +557,7 @@ a:hover {
   font-weight: 400;
   background-color: #0000;
   font-size: 2em;
-  color: #84D4D8;
+  color: #62C22B;
 }
 
 .creches-section p {
