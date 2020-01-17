@@ -318,6 +318,10 @@ section p:first-of-type {
   text-indent: 50px;
 }
 
+section .dontindent {
+  text-indent: 0px !important;
+}
+
 p, a {
   font-size: 1.8rem;
   color: #62C22B;
@@ -336,6 +340,45 @@ p span, a span {
 
 a:hover {
   text-decoration: underline;
+}
+
+form {
+  width: 80%;
+  margin: 30px auto 30px auto;
+}
+
+@media (min-width: 992px) {
+  form {
+    width: 60%;
+  }
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+  width: calc(100% - 33px);
+  padding: 10px 15px;
+  border: 1px solid #62C22B;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  resize: none;
+  height: 18rem;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 8px 15px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #62C22B;
+  color: white;
+  border: none;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #62C22B;
 }
 
 .image {
@@ -562,6 +605,18 @@ a:hover {
 
 .creches-section p {
   margin-left: 100px;
+}
+
+.livredor-entry {
+  margin: 30px 0 60px 0;
+}
+
+.livredor-entry p {
+  margin: 8px 0;
+}
+
+.livredor-entry .livredor-message {
+  margin: 30px 0;
 }
 
 .footer-fill {
