@@ -18,12 +18,14 @@
 
             <p>Tous les formulaires et règlements peuvent être consultés / téléchargés ci-dessous:</p>
 
-            <a href="#">• Reglement d'ordre interieur - Français</a><br/>
-            <a href="#">• Terms and conditions - English</a><br/>
-            <a href="#">• Règlement taxe</a><br/>
-            <a href="#">• Form for volunteering</a><br/>
-            <a href="#">• Form for membership</a><br/>
-            <a href="#">• Fiche pour devenir benevole</a><br/>
-            <a href="#">• Fiche pour inscription membre</a>
+            <p>
+            • <a href="#">Reglement d'ordre interieur - Français</a><br/>
+            • <a href="#">Terms and conditions - English</a><br/>
+            • <a href="#">Règlement taxe</a><br/>
+            • <a href="#">Form for volunteering</a><br/>
+            • <a href="#">Form for membership</a><br/>
+            • <a href="#">Fiche pour devenir benevole</a><br/>
+            • <a href="#">Fiche pour inscription membre</a>
+            </p>
         </section>
     </div>

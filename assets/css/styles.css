@@ -361,7 +361,7 @@ form input[type="text"], form input[type="email"], form textarea {
 }
 
 form textarea {
-  resize: none;
+  resize: vertical;
   height: 18rem;
 }
 
