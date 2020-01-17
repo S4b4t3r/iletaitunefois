@@ -1,0 +1,22 @@
+.programme-single{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid $base-color;
+    border-radius: 20px;
+    padding: 20px 40px;
+    flex-direction: column;
+    @include lg{
+        flex-direction: row;
+    }
+    .programme-content{
+        p{
+            margin: 5px;
+        }
+    }
+    img{
+        width: 115px;
+        height: 140px;
+        background-color: $second-color;
+        border: 1px solid $base-color;
+    }
+}
