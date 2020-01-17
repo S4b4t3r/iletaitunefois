@@ -1,9 +1,9 @@
+
 header{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: sticky;
     z-index: 5;
     top: 0;
@@ -11,6 +11,7 @@ header{
     height: 60px;
     background-color: $base-color;
     @include lg{
+        overflow-y: scroll;
         padding: 0 2em;
         width: 300px;
         height: 100vh;
@@ -101,6 +102,7 @@ header h2 {
         width: 100vw;
         height: 100vh;
         background: $base-color;
+        overflow: scroll;
     @include lg{
         display: none;
     }
@@ -147,3 +149,45 @@ header h2 {
     display: flex;
     flex-direction: column;
 }
+
+.header-logo {
+    margin-top: 5em;
+    width: 128px;
+}
+
+.slogan {
+    display: none;
+    @include lg{
+        display: block;
+        font-size: 3em;
+        color: white;
+        padding-top: 1em;
+        font-family: 'Ludicrous';
+    }
+}
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 12.5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $pink; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c3c3c3; 
+  }

@@ -20,5 +20,7 @@
         <div class="header-container">
             <h2>Menu</h2>
             <?php require 'links.php' ?>
+            <img src="<?php echo base_url() ?>assets/images/paon_blanc.svg" alt="logo" class="header-logo">
+            <span class="slogan">Il était une fois...</span>
         </div>
     </header>

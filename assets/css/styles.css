@@ -40,6 +40,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Ludicrous";
+  src: url("../fonts/ludicrous/stencil.otf") format("opentype");
+  font-style: normal;
+}
+
 header {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -63,6 +69,7 @@ header {
 
 @media (min-width: 992px) {
   header {
+    overflow-y: scroll;
     padding: 0 2em;
     width: 300px;
     height: 100vh;
@@ -176,6 +183,7 @@ header h2 {
   width: 100vw;
   height: 100vh;
   background: #62C22B;
+  overflow: scroll;
 }
 
 @media (min-width: 992px) {
@@ -243,6 +251,45 @@ header h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.header-logo {
+  margin-top: 5em;
+  width: 128px;
+}
+
+.slogan {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .slogan {
+    display: block;
+    font-size: 3em;
+    color: white;
+    padding-top: 1em;
+    font-family: 'Ludicrous';
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF8BA7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c3c3c3;
 }
 
 html {
@@ -619,6 +666,7 @@ hr {
   margin: 30px 0;
 }
 
+<<<<<<< Updated upstream
 .programme-single {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -629,10 +677,57 @@ hr {
   border: 1px solid #62C22B;
   border-radius: 20px;
   padding: 20px 40px;
+=======
+.recherche {
+  margin-top: 5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.recherche-input {
+  font-size: 2em;
+  font-family: Futura;
+  padding: 1em .75em;
+  border: solid 1.5px #62C22B;
+}
+
+.recherche-input:focus, .recherche-submit:focus {
+  outline: none;
+}
+
+.recherche-submit {
+  color: white;
+  background: #6ECDFF;
+  font-size: 2em;
+  font-family: Futura;
+  padding: 1em .75em;
+  border: none;
+  cursor: pointer;
+}
+
+.livres {
+  padding: 5em 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5em;
+}
+
+.livre {
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> Stashed changes
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< Updated upstream
 }
 
 @media (min-width: 992px) {
@@ -653,6 +748,9 @@ hr {
   height: 140px;
   background-color: #A6DC86;
   border: 1px solid #62C22B;
+=======
+  color: #62C22B;
+>>>>>>> Stashed changes
 }
 
 .footer-fill {

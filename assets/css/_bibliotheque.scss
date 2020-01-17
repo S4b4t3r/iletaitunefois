@@ -1,0 +1,41 @@
+.recherche {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-column-gap: 1em;
+}
+
+.recherche-input {
+    font-size: 2em;
+    font-family: Futura;
+    padding: 1em .75em;
+    border: solid 1.5px $base-color;
+}
+
+.recherche-input:focus, .recherche-submit:focus {
+    outline: none;
+}
+
+.recherche-submit {
+    color: white;
+    background: $highlight-color;
+    font-size: 2em;
+    font-family: Futura;
+    padding: 1em .75em;
+    border: none;
+    cursor: pointer;
+}
+
+.livres {
+    padding: 5em 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5em;
+}
+
+.livre {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    color: $base-color;
+}
