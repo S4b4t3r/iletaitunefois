@@ -7,6 +7,13 @@
 
 @font-face {
   font-family: "Futura";
+  src: url("../fonts/futura/Futura Light Italic font.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Futura";
   src: url("../fonts/futura/mediumbt.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -66,10 +73,8 @@ header {
 }
 
 header h2 {
-  margin-top: 0;
-  margin-bottom: 1em;
-  font-size: 26px;
-  font-family: futurahvbt;
+  font-size: 4em;
+  font-family: Milkshake;
   color: white;
   background: transparent;
 }
@@ -180,6 +185,7 @@ header h2 {
 }
 
 .menu {
+  overflow-x: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,7 +269,7 @@ header h2 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FF8BA7;
+  background: #34A5E0;
   border-radius: 10px;
 }
 
@@ -309,7 +315,7 @@ h1 {
   font-weight: 900;
   margin: 20px 0 0 0;
   color: #FF9123;
-  font-size: 6.8rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -501,58 +507,78 @@ hr {
     margin-top: 60px;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
-    -ms-grid-rows: 235px 260px 85px 85px 185px;
-        grid-template-rows: 235px 260px 85px 85px 185px;
+    -ms-grid-rows: 245px 255px 85px 205px 480px;
+        grid-template-rows: 245px 255px 85px 205px 480px;
     grid-column-gap: 80px;
     grid-row-gap: 50px;
   }
-  .accueil-middle .accueil-news .h2title {
+  .accueil-middle .accueil-don .h2title {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .accueil-middle .accueil-kulturpass {
+  .accueil-middle .don-image {
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .accueil-middle .accueil-news {
     -ms-grid-column: 2;
     grid-column: 2;
     -ms-grid-row: 2;
     grid-row: 2;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
   }
-  .accueil-middle .accueil-kulturpass .h2title {
+  .accueil-middle .accueil-news .h2title {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
   }
-  .accueil-middle .accueil-kulturpass p {
+  .accueil-middle .accueil-news p {
     text-align: right;
   }
-  .accueil-middle .kulturpass-image {
+  .accueil-middle .news-image {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 2 / 1 / 4 / 2;
   }
-  .accueil-middle .accueil-ouverture {
-    -ms-grid-row: 4;
-    -ms-grid-row-span: 2;
+  .accueil-middle .accueil-bibliotheque {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: 4 / 1 / 6 / 3;
+    grid-column: 1;
+    -ms-grid-row: 4;
+    grid-row: 4;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
-  .accueil-middle .accueil-ouverture .h2title {
+  .accueil-middle .accueil-bibliotheque .h2title {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .accueil-middle .ouverture-image {
+  .accueil-middle .bibliotheque-image {
     -ms-grid-row: 3;
     -ms-grid-row-span: 2;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 3 / 2 / 5 / 3;
+  }
+  .accueil-middle .accueil-ouverture {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 5;
+    grid-row: 5;
+  }
+  .accueil-middle .accueil-ouverture .h2title {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .accueil-middle .ouverture-image {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 5;
+    grid-row: 5;
   }
 }
 
@@ -571,13 +597,26 @@ hr {
   font-family: "Milkshake";
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1365px) {
   .h2title {
     padding: 0;
   }
 }
 
-.lecture-horaires {
+@media (min-width: 1365px) {
+  .accueil-livres {
+    margin-top: 60px;
+  }
+}
+
+.accueil-livres .h2title {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.accueil-livres-display {
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -591,7 +630,7 @@ hr {
 }
 
 @media (min-width: 992px) {
-  .lecture-horaires {
+  .accueil-livres-display {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -599,14 +638,35 @@ hr {
   }
 }
 
-.lecture-horaires div {
+.accueil-livres-single p {
+  text-align: center;
+  color: #34A5E0;
   width: 100%;
 }
 
-@media (min-width: 992px) {
-  .lecture-horaires div {
-    width: 47.5%;
+.accueil-livres-single img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (min-width: 1365px) {
+  .accueil-video {
+    margin-top: 60px;
   }
+}
+
+.accueil-video .h2title {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.accueil-video video {
+  display: block;
+  margin: 40px auto;
+  width: 100%;
 }
 
 .aide-section h2 {
@@ -695,8 +755,8 @@ hr {
       -ms-flex-pack: center;
           justify-content: center;
   grid-row-gap: 2em;
-  -ms-grid-columns: 75%;
-      grid-template-columns: 75%;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
 }
 
 @media (min-width: 992px) {
@@ -711,10 +771,16 @@ hr {
 }
 
 .recherche-input {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Futura;
   padding: 1em .75em;
   border: solid 1.5px #FF9123;
+}
+
+@media (min-width: 992px) {
+  .recherche-input {
+    font-size: 2em;
+  }
 }
 
 .recherche-input:focus, .recherche-submit:focus {
@@ -724,11 +790,17 @@ hr {
 .recherche-submit {
   color: white;
   background: #34A5E0;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Futura;
   padding: 1em .75em;
   border: none;
   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .recherche-submit {
+    font-size: 2em;
+  }
 }
 
 .livres {
@@ -783,50 +855,21 @@ hr {
   }
 }
 
-.livre span {
+.livre span, h3 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 @media (min-width: 992px) {
-  .livre span {
+  .livre span, h3 {
     -ms-flex-item-align: start;
         align-self: flex-start;
-  }
-}
-
-.livre img {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
-}
-
-@media (min-width: 992px) {
-  .livre {
-    font-size: 2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    color: #62C22B;
-  }
-}
-
-.livre span {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 992px) {
-  .livre span {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 

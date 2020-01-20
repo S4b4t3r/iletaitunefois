@@ -6,6 +6,12 @@
 }
 @font-face {
     font-family: "Futura";
+    src: url("../fonts/futura/Futura\ Light\ Italic\ font.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Futura";
     src: url("../fonts/futura/mediumbt.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
