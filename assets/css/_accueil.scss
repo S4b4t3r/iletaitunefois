@@ -18,7 +18,7 @@ body{
 }
 
 h1 {
-    font-family: "Butler";
+    font-family: "Milkshake";
     font-weight: 900;
     margin: 20px 0 0 0;
     color: $base-color;
@@ -57,9 +57,10 @@ section{
 
 p, a{
     font-size: 1.8rem;
-    color: $base-color;
+    color: $text-color;
     text-decoration: none;
     span{
+        color: $base-color;
         font-weight: 700;
     }
     @include lg{
@@ -207,6 +208,9 @@ hr{
     justify-content: center;
     width: 100%;
     padding-top: 30px;
+    h2{
+        font-family: "Milkshake";
+    }
     @include rwd(1366){
         padding:0;
     }
