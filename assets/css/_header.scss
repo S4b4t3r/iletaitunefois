@@ -110,6 +110,7 @@ header h2 {
 }
 
 .menu {
+    overflow-x: hidden;
     display: flex;
     justify-content: flex-start;
     align-items: center;

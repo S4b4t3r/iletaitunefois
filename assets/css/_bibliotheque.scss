@@ -1,10 +1,9 @@
 
-
 .recherche {
     display: grid;
     justify-content: center;
     grid-row-gap: 2em;
-    grid-template-columns: 75%;
+    grid-template-columns: 1fr;
     @include lg{
         margin-top: 5em;
         display: grid;
@@ -14,10 +13,13 @@
 }
 
 .recherche-input {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: Futura;
     padding: 1em .75em;
     border: solid 1.5px $base-color;
+    @include lg{
+        font-size: 2em;
+    }
 }
 
 .recherche-input:focus, .recherche-submit:focus {
@@ -27,11 +29,14 @@
 .recherche-submit {
     color: white;
     background: $highlight-color;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: Futura;
     padding: 1em .75em;
     border: none;
     cursor: pointer;
+    @include lg{
+        font-size: 2em;
+    }
 }
 
 .livres {
@@ -61,10 +66,12 @@
     }
 }
 
-.livre span {
+.livre span, h3 {
+    align-self: flex-start;
     justify-content: center;
     @include lg {
         align-self: flex-start;
+        justify-content: center;
     }
 }
 
