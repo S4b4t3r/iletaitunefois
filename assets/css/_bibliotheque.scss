@@ -62,7 +62,10 @@
 }
 
 .livre span {
-    align-self: flex-start;
+    justify-content: center;
+    @include lg {
+        align-self: flex-start;
+    }
 }
 
 .livre img {
