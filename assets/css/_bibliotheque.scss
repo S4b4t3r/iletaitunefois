@@ -8,13 +8,7 @@
     @include lg{
         margin-top: 5em;
         display: grid;
-        grid-template-columns: 75%;
-        grid-column-gap: 1em;
-    }
-    @include xl{
-        margin-top: 5em;
-        display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2.5fr 1fr 1fr;
         grid-column-gap: 1em;
     }
 }
@@ -65,6 +59,10 @@
         flex-direction: column;
         color: $base-color;
     }
+}
+
+.livre span {
+    align-self: flex-start;
 }
 
 .livre img {

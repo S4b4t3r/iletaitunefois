@@ -172,12 +172,13 @@ header h2 {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: white; 
+    background: transparent; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: $pink; 
+    border-radius: 10px;
   }
   
   /* Handle on hover */
