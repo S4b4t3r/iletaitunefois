@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-    <?php include 'header_responsive.php' ?>
+    
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Livre d'or</h1>
+        <h1>Livre d'or</h1>
         <p>L'adresse de courrier électronique sera transférée à Il était une fois… Asbl afin de permettre une réponse directe à votre requête. Elle ne sera pas affichée dans le livre d'or.
         </p>
         <p>Votre message n'apparaîtra qu'après validation de notre part.

@@ -1,5 +1,4 @@
 <div class="content-wrapper">
-    <?php include 'header_responsive.php' ?>
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>

@@ -3,7 +3,7 @@
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Partenaires</h1>
+        <h1>Partenaires</h1>
 
         <section class="aide-section">
             <h2>Nous collaborons avec les organisations ci-dessous:</h2><br />

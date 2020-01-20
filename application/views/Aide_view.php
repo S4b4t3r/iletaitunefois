@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-<?php include 'header_responsive.php' ?>
+
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Aidez-nous</h1>
+        <h1>Aidez-nous</h1>
         <p>Ensemble, nous pouvons faire de grandes choses. Vous pouvez donc nous aider de différentes façons:</p>
 
         <section class="aide-section">

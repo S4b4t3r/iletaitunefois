@@ -3,7 +3,7 @@
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Coin de lecture</h1>
+        <h1>Coin de lecture</h1>
 
         <section class="aide-section">
             <h2>Coordonnées</h2>

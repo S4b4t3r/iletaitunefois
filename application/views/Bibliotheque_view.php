@@ -1,11 +1,11 @@
 <div class="content-wrapper">
-    <?php include 'header_responsive.php' ?>
+    
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
         <div>
-            <h1 style="text-align: center;">Bibliothèque en ligne</h1>
+            <h1>Bibliothèque en ligne</h1>
             <p>
                 Vous recherchez un livre ou un auteur en particulier ?
                 Ou bien vous souhaitez savoir si le livre préféré de votre enfant est disponible dans votre langue maternelle ?

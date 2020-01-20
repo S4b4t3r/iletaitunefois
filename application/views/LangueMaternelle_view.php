@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-<?php include 'header_responsive.php' ?>
+
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Langue Maternelle</h1>
+        <h1>Langue Maternelle</h1>
 
         <section>
             <p>La langue maternelle fait partie intégrante de la personnalité de chacun, en tant que premier véhicule de nos sentiments et outil de communication et d’identification avec une communauté.<br/>

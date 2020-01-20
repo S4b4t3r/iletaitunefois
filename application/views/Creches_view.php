@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-<?php include 'header_responsive.php' ?>
+
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Crèches</h1>
+        <h1>Crèches</h1>
 
         <section class="creches-section">
             <h2>Visites</h2>

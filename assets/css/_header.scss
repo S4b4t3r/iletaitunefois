@@ -11,7 +11,7 @@ header{
     height: 60px;
     background-color: $base-color;
     @include lg{
-        overflow-y: scroll;
+        overflow-y: auto;
         padding: 0 2em;
         width: 300px;
         height: 100vh;
@@ -33,6 +33,7 @@ header h2 {
     display: none;
 
     @include lg{
+        height: 100vh;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -150,22 +151,14 @@ header h2 {
     flex-direction: column;
 }
 
+.header-fill{
+    flex-grow: 1;
+}
+
 .header-logo {
-    margin-top: 5em;
-    width: 128px;
+    width: 160px;
+    margin-bottom: 20px;
 }
-
-.slogan {
-    display: none;
-    @include lg{
-        display: block;
-        font-size: 3em;
-        color: white;
-        padding-top: 1em;
-        font-family: 'Ludicrous';
-    }
-}
-
 
 
 

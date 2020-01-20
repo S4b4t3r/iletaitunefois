@@ -23,6 +23,7 @@ h1 {
     margin: 20px 0 0 0;
     color: $base-color;
     font-size: 6.8rem;
+    text-align: center;
     @include lg{
         font-size: 12rem;
     }

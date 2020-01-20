@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-    <?php include 'header_responsive.php' ?>
+    
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Programme du mois</h1>
+        <h1>Programme du mois</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
         </p>
         <section class="aide-section">

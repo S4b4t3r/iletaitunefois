@@ -1,6 +1,6 @@
     <div class="footer-fill"></div>
     <footer>
-        2019 - 2020 © <span>Iletaitunefois.lu</span>
+        <span>Iletaitunefois.lu</span> - 2020
     </footer>
 </div>
 </body>

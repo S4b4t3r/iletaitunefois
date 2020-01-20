@@ -3,7 +3,7 @@
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Adhésion</h1>
+        <h1>Adhésion</h1>
         <section>
             <p>L'utilisation des locaux et des installations du «Coin de lecture», ainsi que la participation à toutes ses activités, n'est disponible que pour les membres de l'association résidant au Grand-Duché de Luxembourg ou dans la Grande Région.</p>
 

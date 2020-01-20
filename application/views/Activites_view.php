@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-<?php include 'header_responsive.php' ?>
+
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Nos Activités</h1>
+        <h1>Nos Activités</h1>
 
         <section>
             <p>Notre Coin de Lecture dispose de livres en 26 langues.En plus de la lecture sur place, les parents peuvent également emprunter des livres (carte de membre à 30 EUR / année; 70 EUR / année pour crèches).</p>

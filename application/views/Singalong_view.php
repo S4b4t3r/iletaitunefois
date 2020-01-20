@@ -1,10 +1,10 @@
 <div class="content-wrapper">
-<?php include 'header_responsive.php' ?>
+
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Sing along</h1>
+        <h1>Sing along</h1>
 
         <section class="creches-section">
             <p>Tous les lundis après-midi de 17h à 17h30, notre Coin de Lecture est réservé aux tout-petits.<br>

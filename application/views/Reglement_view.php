@@ -3,7 +3,7 @@
         <span>FR</span> | <a>EN</a>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">Réglement d'ordre intérieur</h1>
+        <h1>Réglement d'ordre intérieur</h1>
         <p>Nous demandons à tous nos membres de bien vouloir prendre connaissance de notre règlement d'ordre intérieur et de s'y conformer dans le respect de tous.</p>
 
         <section class="aide-section">

@@ -20,7 +20,13 @@
         <div class="header-container">
             <h2>Menu</h2>
             <?php require 'links.php' ?>
-            <img src="<?php echo base_url() ?>assets/images/paon_blanc.svg" alt="logo" class="header-logo">
-            <span class="slogan">Il était une fois...</span>
+            <div class="header-fill"></div>
+            <img src="<?php echo base_url() ?>assets/images/logo_300px.png" alt="logo" class="header-logo">
         </div>
     </header>
+    <!-- header responsive -->
+    <div class="test" id="test">
+        <h2>Menu</h2>
+        <?php require 'links.php' ?>
+    </div>
+    <script src="<?php echo base_url()?>assets/js/header.js"></script>
