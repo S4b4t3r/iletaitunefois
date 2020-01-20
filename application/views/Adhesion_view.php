@@ -19,13 +19,13 @@
             <p>Tous les formulaires et règlements peuvent être consultés / téléchargés ci-dessous:</p>
 
             <p>
-            • <a href="#">Reglement d'ordre interieur - Français</a><br/>
-            • <a href="#">Terms and conditions - English</a><br/>
-            • <a href="#">Règlement taxe</a><br/>
-            • <a href="#">Form for volunteering</a><br/>
-            • <a href="#">Form for membership</a><br/>
-            • <a href="#">Fiche pour devenir benevole</a><br/>
-            • <a href="#">Fiche pour inscription membre</a>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Terms_and_conditions_A5.pdf">Reglement d'ordre interieur - Français</a><br/>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Terms_and_conditions_A5_English.pdf">Terms and conditions - English</a><br/>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Reglement_taxe.pdf">Règlement taxe</a><br/>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Volunteer_form_english.pdf">Form for volunteering</a><br/>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Membership_form_english.pdf">Form for membership</a><br/>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Fiche_benevolat_francais.pdf">Fiche pour devenir benevole</a><br/>
+            • <a href="https://www.iletaitunefois.lu/resources?mode=download&com=0I24I0I0I&type=pdf&dir=Paperwork&file=Fiche_membre_francais.pdf">Fiche pour inscription membre</a>
             </p>
         </section>
     </div>

@@ -82,7 +82,7 @@ header {
 header h2 {
   margin-top: 0;
   margin-bottom: 1em;
-  font-size: 38px;
+  font-size: 26px;
   font-family: futurahvbt;
   color: white;
   background: transparent;
@@ -237,7 +237,7 @@ header h2 {
 
 #dropdownactivitesbutton {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .dropdownactivites {
