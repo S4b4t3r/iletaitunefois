@@ -1,8 +1,22 @@
+
+
 .recherche {
-    margin-top: 5em;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-column-gap: 1em;
+    justify-content: center;
+    grid-row-gap: 2em;
+    grid-template-columns: 75%;
+    @include lg{
+        margin-top: 5em;
+        display: grid;
+        grid-template-columns: 75%;
+        grid-column-gap: 1em;
+    }
+    @include xl{
+        margin-top: 5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 1em;
+    }
 }
 
 .recherche-input {
@@ -29,13 +43,33 @@
 .livres {
     padding: 5em 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 5em;
+    @include lg{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include xl{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .livre {
+    align-items: center;
     font-size: 2em;
     display: flex;
     flex-direction: column;
     color: $base-color;
+    @include lg{
+        font-size: 2em;
+        display: flex;
+        flex-direction: column;
+        color: $base-color;
+    }
+}
+
+.livre img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
 }
