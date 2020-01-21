@@ -4,6 +4,7 @@
     justify-content: center;
     grid-row-gap: 2em;
     grid-template-columns: 1fr;
+    width: 100%;
     @include lg{
         margin-top: 5em;
         display: grid;
@@ -20,6 +21,7 @@
     @include lg{
         font-size: 2em;
     }
+    margin-bottom: 0 !important;
 }
 
 .recherche-input:focus, .recherche-submit:focus {
@@ -36,6 +38,18 @@
     cursor: pointer;
     @include lg{
         font-size: 2em;
+    }
+}
+
+.pagination{
+	display: flex;
+    justify-content: center;
+    *{
+        padding: 5px;
+        font-size: 2.1rem;
+    }
+    strong{
+        color: $base-color;
     }
 }
 
@@ -64,6 +78,13 @@
         flex-direction: column;
         color: $base-color;
     }
+    img{
+        max-width: auto;
+        background-color: $second-color;
+        //width: fit-content;
+        margin: 0 auto;
+        height: 200px;
+    }
 }
 
 .livre span, h3 {
@@ -73,11 +94,4 @@
         align-self: flex-start;
         justify-content: center;
     }
-}
-
-.livre img {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 0 auto;
 }

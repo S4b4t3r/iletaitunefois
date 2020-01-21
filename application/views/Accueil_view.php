@@ -59,20 +59,14 @@
                 <h2>Derniers livres</h2>
             </div>
             <div class="accueil-livres-display">
+                <?php foreach($all as $livre)
+                {?>
                 <div class="accueil-livres-single">
-                    <img src="<?php echo base_url();?>assets/images/livres/1094922478053.jpg">
-                    <p class="dontindent">Titre 1</p>
+                    <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code;?>">
+                    <p class="dontindent"><?php echo $livre->Title;?></p>
                 </div>
-
-                <div class="accueil-livres-single">
-                    <img src="<?php echo base_url();?>assets/images/livres/1094922478053.jpg">
-                    <p class="dontindent">Titre 2</p>
-                </div>
-
-                <div class="accueil-livres-single">
-                    <img src="<?php echo base_url();?>assets/images/livres/1094922478053.jpg">
-                    <p class="dontindent">Titre 3</p>
-                </div>
+                <?php 
+                }?>
             </div>
         </section>
         <section class="accueil-video">

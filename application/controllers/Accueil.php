@@ -4,6 +4,10 @@ class Accueil extends CI_Controller {
 	{
         $data['titre'] = "Il était une fois...";
         $data['accueil'] = true;
+
+        $this->load->model('Biblioteque_model');
+        $data['all'] = $this->Biblioteque_model->getLast();
+
         $this->load->view('Header_view', $data);
         $this->load->view('Accueil_view');
         $this->load->view('Footer_view');

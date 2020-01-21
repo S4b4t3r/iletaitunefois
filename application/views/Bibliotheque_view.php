@@ -1,5 +1,5 @@
 <div class="content-wrapper">
-    
+
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
@@ -13,58 +13,32 @@
             </p>
         </div>
         <section class="biblio-livres">
-            <div class="recherche">
-                    <input type="text" placeholder="Exemple: Les trois petits cochons" class="recherche-input">
-                    <select name="langue" class="recherche-input">
-                        <option selected disabled hidden>Langue</option>
-                        <option>français</option>
-                        <option>deutsch</option>
-                    </select>
-                    <input type="submit" class="recherche-submit" value="Rechercher">
+            <form action="" method="get" class="recherche">
+                <input type="text" placeholder="Exemple: Les trois petits cochons" class="recherche-input">
+                <select name="langue" class="recherche-input">
+                    <option selected disabled hidden>Langue</option>
+                    <option>français</option>
+                    <option>deutsch</option>
+                </select>
+                <input type="submit" class="recherche-submit" value="Rechercher">
+            </form>
+            <div class="pagination">
+                <?php echo $pagination; ?>
             </div>
-
             <div class="livres">
+                <?php foreach($all as $livre)
+                {?>
                 <div class="livre">
-                    <img src="<?php echo base_url()?>assets/images/livres/1094922478053.jpg">
-                    <h3>Mes couilles au bord de l'eau</h3>
-                    <span><b>Auteur</b>: auteur1, auteur2</span>
-                    <span><b>1</b> sur <b>1</b> de disponible(s)</span>
+                    <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code;?>">
+                    <h3><?php echo $livre->Title;?></h3>
+                    <span><b>Auteur : </b><?php echo $livre->Author;?></span>
+                    <span>Disponible(s) : <b><?php echo $livre->Quantity;?></b></span>
                 </div>
-
-                <div class="livre">
-                    <img src="<?php echo base_url()?>assets/images/livres/1094922478053.jpg">
-                    <h3>Mes couilles au bord de l'eau</h3>
-                    <span><b>Auteur</b>: auteur1, auteur2</span>
-                    <span><b>1</b> sur <b>1</b> de disponible(s)</span>
-                </div>
-
-                <div class="livre">
-                    <img src="<?php echo base_url()?>assets/images/livres/1094922478053.jpg">
-                    <h3>Mes couilles au bord de l'eau</h3>
-                    <span><b>Auteur</b>: auteur1, auteur2</span>
-                    <span><b>1</b> sur <b>1</b> de disponible(s)</span>
-                </div>
-
-                <div class="livre">
-                    <img src="<?php echo base_url()?>assets/images/livres/1094922478053.jpg">
-                    <h3>Mes couilles au bord de l'eau</h3>
-                    <span><b>Auteur</b>: auteur1, auteur2</span>
-                    <span><b>1</b> sur <b>1</b> de disponible(s)</span>
-                </div>
-
-                <div class="livre">
-                    <img src="<?php echo base_url()?>assets/images/livres/1094922478053.jpg">
-                    <h3>Mes couilles au bord de l'eau</h3>
-                    <span><b>Auteur</b>: auteur1, auteur2</span>
-                    <span><b>1</b> sur <b>1</b> de disponible(s)</span>
-                </div>
-
-                <div class="livre">
-                    <img src="<?php echo base_url()?>assets/images/livres/1094922478053.jpg">
-                    <h3>Mes couilles au bord de l'eau</h3>
-                    <span><b>Auteur</b>: auteur1, auteur2</span>
-                    <span><b>1</b> sur <b>1</b> de disponible(s)</span>
-                </div>
+                <?php
+                }?>
+            </div>
+            <div class="pagination">
+                <?php echo $pagination; ?>
             </div>
         </section>
     </div>
