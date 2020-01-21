@@ -892,7 +892,7 @@ hr {
   height: 200px;
 }
 
-.livre span, h3 {
+.livre span, .livre h3 {
   -ms-flex-item-align: start;
       align-self: flex-start;
   -webkit-box-pack: center;
@@ -901,13 +901,22 @@ hr {
 }
 
 @media (min-width: 992px) {
-  .livre span, h3 {
+  .livre span, .livre h3 {
     -ms-flex-item-align: start;
         align-self: flex-start;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.livre h3 {
+  margin-bottom: 0;
+}
+
+.livre i {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
 }
 
 .footer-fill {

@@ -13,12 +13,30 @@
             </p>
         </div>
         <section class="biblio-livres">
-            <form action="" method="get" class="recherche">
-                <input type="text" placeholder="Exemple: Les trois petits cochons" class="recherche-input">
-                <select name="langue" class="recherche-input">
+            <form action="<?php echo base_url();?>Bibliotheque/page/1" method="get" class="recherche">
+                <input type="text" name="k" placeholder="Exemple: Les trois petits cochons" class="recherche-input">
+                <select name="l" class="recherche-input">
                     <option selected disabled hidden>Langue</option>
-                    <option>français</option>
-                    <option>deutsch</option>
+                    <option>Albanais</option>
+                    <option>Allemand</option>
+                    <option>Anglais</option>
+                    <option>Bosniaque</option>
+                    <option>Chinois</option>
+                    <option>Danois</option>
+                    <option>Espagnol</option>
+                    <option>Français</option>
+                    <option>Finnois</option>
+                    <option>Grec</option>
+                    <option>Italien</option>
+                    <option>Japonais</option>
+                    <option>Luxembourgeois</option>
+                    <option>Néerlandais</option>
+                    <option>Polonais</option>
+                    <option>Roumain</option>
+                    <option>Russe</option>
+                    <option>Slovaque</option>
+                    <option>Tchèque</option>
+                    <option>Yoruba</option>
                 </select>
                 <input type="submit" class="recherche-submit" value="Rechercher">
             </form>
@@ -31,7 +49,9 @@
                 <div class="livre">
                     <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code;?>">
                     <h3><?php echo $livre->Title;?></h3>
-                    <span><b>Auteur : </b><?php echo $livre->Author;?></span>
+                    <i><?php echo $livre->Subtitle;?></i>
+                    <span><b>Auteur(s) : </b><?php echo $livre->Author;?></span>
+                    <span><b>Langue(s) : </b><?php echo $livre->Language;?></span>
                     <span>Disponible(s) : <b><?php echo $livre->Quantity;?></b></span>
                 </div>
                 <?php

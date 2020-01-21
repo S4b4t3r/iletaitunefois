@@ -33,24 +33,31 @@ class Biblioteque_model extends CI_Model{
     public function getByKeywords($keywords, $language , $n = 1)
     {
         $o = ($n-1)*6;
-        $query = $this->db->query("SELECT * FROM `livre`
+        $this->db->query("CREATE OR REPLACE VIEW bylangue AS
+        SELECT * FROM `livre`
+        WHERE `Language` LIKE '%$language%';");
+
+        $query = $this->db->query("SELECT * FROM bylangue
         WHERE `Search-Keywords` LIKE '%$keywords%'
         OR `Title` LIKE '%$keywords%'
         OR `Author` LIKE '%$keywords%'
         OR `Subtitle` LIKE '%$keywords%'
-        AND `Language` LIKE '%$language%'
+
         LIMIT 6 OFFSET $o;");
         return $query->result();
     }
 
     public function getByKeywordsAll($keywords, $language)
     {
-        $query = $this->db->query("SELECT * FROM `livre`
-        WHERE `Search-Keywords` LIKE '%$keywords%'
+        $this->db->query("CREATE OR REPLACE VIEW bylangue AS
+        SELECT * FROM `livre`
+        WHERE `Language` LIKE '%$language%';");
+
+        $query = $this->db->query("SELECT * FROM bylangue WHERE
+        `Search-Keywords` LIKE '%$keywords%'
         OR `Title` LIKE '%$keywords%'
         OR `Author` LIKE '%$keywords%'
-        OR `Subtitle` LIKE '%$keywords%'
-        AND `Language`='$language';");
+        OR `Subtitle` LIKE '%$keywords%';");
         return $query->result();
     }
 }
