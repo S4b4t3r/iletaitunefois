@@ -47,7 +47,7 @@
                 <?php foreach($all as $livre)
                 {?>
                 <div class="livre">
-                    <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code;?>">
+                    <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code.'.jpg';?>">
                     <h3><?php echo $livre->Title;?></h3>
                     <i><?php echo $livre->Subtitle;?></i>
                     <span><b>Auteur(s) : </b><?php echo $livre->Author;?></span>
