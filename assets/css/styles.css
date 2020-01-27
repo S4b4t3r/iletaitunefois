@@ -448,6 +448,14 @@ hr {
           align-items: center;
 }
 
+@media (min-width: 1365px) {
+  .accueil-bg {
+    background-image: url("../images/splash2.svg"), url("../images/splash4.svg"), url("../images/splash1.svg"), url("../images/splash6.svg"), url("../images/splash5.svg"), url("../images/splash3.svg");
+    background-position: 94% 11.5%, 7% 29%, 89% 37%, 4% 55%, 95% 73%, 11% 95%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  }
+}
+
 .langue {
   font-size: 2.1rem;
   color: #34A5E0;

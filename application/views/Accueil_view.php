@@ -1,4 +1,4 @@
-<div class="content-wrapper">
+<div class="content-wrapper accueil-bg">
     <div class="langue">
         <span>FR</span> | <a>EN</a>
     </div>
@@ -32,7 +32,7 @@
                     <h2>Bibliothèque</h2>
                 </div>
                 <br>
-                <p>Pour accéder à l'espace Bibliothèque en ligne, veuillez suivre <a href="<?php echo base_url(); ?>Bibliotheque"><span>ce lien</span></a></p>
+                <p class="dontindent">Pour accéder à l'espace Bibliothèque en ligne, veuillez suivre <a href="<?php echo base_url(); ?>Bibliotheque"><span>ce lien</span></a></p>
             </div>
             <div class="bibliotheque-image image"></div>
 
@@ -41,7 +41,7 @@
                     <h2>Jours d'ouverture</h2>
                 </div>
                 <br>
-                <p>Le <span>Coin de Lecture</span> a le plaisir de vous accueillir les jours suivants:</p>
+                <p class="dontindent">Le <span>Coin de Lecture</span> a le plaisir de vous accueillir les jours suivants:</p>
 
                 <p><span>Mardi:</span> de 16h30 à 18h</p>
 
