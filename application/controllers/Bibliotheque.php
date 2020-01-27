@@ -15,12 +15,12 @@ class Bibliotheque extends CI_Controller {
         $language = (isset($_GET['l'])?$_GET['l']:'');
 
         $this->load->model('Biblioteque_model');
-        $data['all'] = $this->Biblioteque_model->getByKeywords($keywords, $language, $n);
+        $data['all'] = $this->Biblioteque_model->getByKeywords(addslashes($keywords), $language, $n);
 
         $this->load->library('pagination');
 
         $config['base_url'] = base_url() . 'Bibliotheque/page/';
-        $config['total_rows'] =  count($this->Biblioteque_model->getByKeywordsAll($keywords, $language));
+        $config['total_rows'] =  count($this->Biblioteque_model->getByKeywordsAll(addslashes($keywords), $language));
         $config['per_page'] = 6;
         $config['use_page_numbers'] = TRUE;
         $config['first_link'] = '< 1';
