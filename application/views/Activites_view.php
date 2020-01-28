@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1>Nos Activités</h1>
 
@@ -14,3 +12,7 @@
             <p>Le Coin de Lecture est également ouvert à des visites de groupes que ce soit des crèches, des écoles ou des foyers (pour plus d'informations, veuillez nous contacter).</p>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

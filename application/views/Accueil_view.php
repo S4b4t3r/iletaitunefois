@@ -1,11 +1,25 @@
 <div class="content-wrapper accueil-bg">
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <div>
             <h1>Il était<span> une fois...</span></h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed dolores sequi, nam tempora reiciendis error, veniam adipisci nihil aliquid neque laudantium, sunt praesentium eveniet similique at corrupti molestiae incidunt pariatur?</p>
+            <p>'Il était une fois…' est une ASBL (Association Sans But Lucratif) situé au centre de Gasperich au Luxembourg,
+                et actuellement dirigée par Daniela Sotto, elle a principalement deux objectifs :<br><br>
+                - Accompagner les enfants dans leur apprentissage de la littérature dans le but de leur donner l’envie et le plaisir de lire<br>
+                - Permettre aux enfants issus de l’immigration de garder la possibilité de travailler leur langue maternelle en dehors du cadre familial<br><br>
+                L’association prend donc la forme d’une petite bibliothèque enfantine possédant des livres et autres formes de lecture dans pas moins de
+                vingt-six langues différentes. Cette dernière est ouverte aux particuliers, mais aussi aux visites de groupe comme des crèches, des écoles, ou des foyers.
+                L’association propose aussi régulièrement de nombreux ateliers de lecture multilingues ainsi que de découvertes musicales, réalisés par plus
+                d’une vingtaine de bénévoles différents, toujours dans le but d’accompagner les enfants.<br><br>
+                L’association est financée de deux façon, à la fois grâce aux différents abonnements qu’elle propose donnant la possibilité aux
+                parents et aux crèches d’emprunter des livres et de participer aux différentes activités, mais aussi grâce aux donations qui
+                peuvent être réalisées de différentes manières :<br><br>
+                - Financièrement, en versant un don à l’association par l’intermédiaire du « Fonds Interculturel »<br>
+                - En donnant des livres ou lectures encore en bon état<br>
+                - En devenant bénévole au sein de l’association<br>
+                - En réalisant un partenariat avec cette dernière (Dans le cadre d’une entreprise ou une fondation)<br><br>
+                Toutes les informations concernant l’association et ses activités sont trouvables sur leur site internet situé à l’adresse suivante : https://www.iletaitunefois.lu/ , ainsi que sur leur page Facebook trouvable à cette adresse : https://www.facebook.com/iletaitunefois.asbl .
+            </p>
         </div>
         <section class="accueil-middle">
             <div class="accueil-don">
@@ -78,3 +92,7 @@
             </video>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

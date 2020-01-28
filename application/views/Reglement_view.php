@@ -1,9 +1,7 @@
 <div class="content-wrapper">
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
-        <h1>Réglement d'ordre intérieur</h1>
+        <h1>Règlement d'ordre intérieur</h1>
         <p>Nous demandons à tous nos membres de bien vouloir prendre connaissance de notre règlement d'ordre intérieur et de s'y conformer dans le respect de tous.</p>
 
         <section class="aide-section">
@@ -157,3 +155,7 @@
             </p>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

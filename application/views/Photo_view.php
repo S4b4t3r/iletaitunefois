@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1>Groupe Photo</h1>
 
@@ -11,3 +9,7 @@
                 <b>Vidéo câlin Valérie :</b> <a href="http://youtu.be/T6Su0_OppzM">youtu.be/T6Su0_OppzM</a></p>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

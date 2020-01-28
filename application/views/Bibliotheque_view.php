@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <div>
             <h1>Bibliothèque en ligne</h1>
@@ -10,6 +8,10 @@
                 Vous recherchez un livre ou un auteur en particulier ?
                 Ou bien vous souhaitez savoir si le livre préféré de votre enfant est disponible dans votre langue maternelle ?
                 C’est possible en entrant les critères de votre recherche ci-dessous :
+
+                <!-- translate.js -->
+    <script src="assets/js/translations.js" type="text/javascript"></script>
+    <script src="assets/js/lingumania.min.js"></script>
             </p>
         </div>
         <section class="biblio-livres">
@@ -53,6 +55,7 @@
                     <span><b>Auteur(s) : </b><?php echo $livre->Author;?></span>
                     <span><b>Langue(s) : </b><?php echo $livre->Language;?></span>
                     <span>Disponible(s) : <b><?php echo $livre->Quantity;?></b></span>
+                    
                 </div>
                 <?php
                 }?>
@@ -62,3 +65,5 @@
             </div>
         </section>
     </div>
+
+    

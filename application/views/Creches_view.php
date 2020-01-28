@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1>Crèches</h1>
 
@@ -49,3 +47,7 @@
             </p>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

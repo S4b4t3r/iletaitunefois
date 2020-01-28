@@ -1,5 +1,5 @@
 <?php
-class Languematernelle extends CI_Controller {
+class LangueMaternelle extends CI_Controller {
 	public function index()
 	{
         $data['titre'] = "Il était une fois... - Langue Maternelle";

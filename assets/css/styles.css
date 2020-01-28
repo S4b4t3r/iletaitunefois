@@ -654,6 +654,8 @@ hr {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .accueil-livres-single p {
@@ -666,7 +668,6 @@ hr {
   max-width: auto;
   background-color: #FFB46A;
   margin: 0 auto;
-  height: 200px;
 }
 
 @media (min-width: 1365px) {
@@ -760,8 +761,6 @@ hr {
 }
 
 .programme-single img {
-  width: 115px;
-  height: 140px;
   background-color: #FFB46A;
   border: 1px solid #FF9123;
 }

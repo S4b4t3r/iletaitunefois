@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1 class="">Notre association</h1>
 
@@ -24,3 +22,7 @@
                 Un principe fondateur de l'association, basé sur une recherche linguistique bien établie, est que pour bien apprendre une langue étrangère, une base solide de la langue maternelle est essentielle.</p>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

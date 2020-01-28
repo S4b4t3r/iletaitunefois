@@ -1,8 +1,6 @@
 <div class="content-wrapper">
     
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1>Newsletter</h1>
         <p>Si vous voulez être informé régulièrement de nos activités, inscrivez-vous à notre liste de diffusion.
@@ -12,3 +10,7 @@
             <input type="submit" value="Souscrire">
         </form>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

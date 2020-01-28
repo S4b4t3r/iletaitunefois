@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1>Aidez-nous</h1>
         <p>Ensemble, nous pouvons faire de grandes choses. Vous pouvez donc nous aider de différentes façons:</p>
@@ -46,3 +44,7 @@
             Toute l'équipe vous remercie de votre soutien!
         </b></p>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>

@@ -1,8 +1,6 @@
 <div class="content-wrapper">
 
-    <div class="langue">
-        <span>FR</span> | <a>EN</a>
-    </div>
+    
     <div class="content">
         <h1>Langue Maternelle</h1>
 
@@ -14,3 +12,7 @@
                 Au-delà du cercle familial, les enfants d’origine étrangère n’ont que très rarement l’occasion de parler, lire et écouter leur langue maternelle. Un "coin de lecture", en tant que lieu éducatif et de rencontre, est le lieu idéal pour valoriser son importance et faciliter son apprentissage et son intégration.</p>
         </section>
     </div>
+
+    <!-- translate.js -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/lingumania.min.js" type="text/javascript"></script>
