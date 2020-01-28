@@ -3,7 +3,7 @@ html{
     min-height: 100vh;
     font-size: 62.5%;
     font-family: "Futura";
-    font-weight: 300;
+    font-weight: lighter;
 }
 
 body{
@@ -19,7 +19,7 @@ body{
 
 h1 {
     font-family: "Milkshake";
-    font-weight: 900;
+    font-weight: bolder;
     margin: 20px 0 0 0;
     color: $base-color;
     font-size: 5rem;
@@ -261,9 +261,9 @@ hr{
 .accueil-livres{
     @include rwd(1365){
         margin-top: 60px;
-    }
-    .h2title{
-        justify-content: start;
+        .h2title{
+            justify-content: start;
+        }
     }
 }
 
@@ -298,10 +298,11 @@ hr{
 .accueil-video{
     @include rwd(1365){
         margin-top: 60px;
+        .h2title{
+            justify-content: end;
+        }
     }
-    .h2title{
-        justify-content: end;
-    }
+
     video{
         display: block;
         margin: 40px auto;
