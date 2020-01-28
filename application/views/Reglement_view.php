@@ -8,28 +8,28 @@
 
         <section class="aide-section">
             <h2>Article 1</h2>
-            <p>
+            <p class="dontindent">
                 Le Coin de Lecture « Il était une fois… » est un service ouvert au public destiné à toute la population (sous condition d'adhérer par une cotisation annuelle à notre association ). Pour en faciliter l’accès, il comprend une section pour la consultation sur place des collections à des fins d’information, d’enrichissement culturel et de loisirs et une section pour les ateliers de lecture et de bricolage, ainsi que pour les Sing Along et Cours de musique.
             </p>
         </section>
 
         <section class="aide-section">
             <h2>Article 2</h2>
-            <p>
+            <p class="dontindent">
                 L’accès au Coin de Lecture, la consultation sur place des documents écrits, de même que le prêt de livres et le déroulement des ateliers répondent aux modalités qui suivent.
             </p>
         </section>
         
         <section class="aide-section">
             <h2>Article 3</h2>
-            <p>
+            <p class="dontindent">
                 Les services du Coin de Lecture ne sont pas tous gratuits. Pour en connaître les détails veuillez consulter le ‘Règlement-taxe’ dans la rubrique <a href="<?php echo base_url()?>adhesion"><b>Adhésion</b></a>.
             </p>
         </section>
 
         <section class="aide-section">
             <h2>Article 4</h2>
-            <p>
+            <p class="dontindent">
                 Le prêt à domicile n’est consenti qu’aux personnes inscrites comme usagers et résidant au Grand-Duché de Luxembourg ou dans la Grande Région.
             </p>
             <p>
@@ -48,7 +48,7 @@
 
         <section class="aide-section">
             <h2>Article 5</h2>
-            <p>
+            <p class="dontindent">
                 Les heures d’ouverture sont dûment affichées à l’entrée du Coin de Lecture qui sera fermé pendant les vacances scolaires et jours fériés.
                 Tout utilisateur est tenu de se comporter de manière à ne pas troubler la tranquillité des autres personnes présentes.
                 Il est notamment interdit : </br>
@@ -65,14 +65,14 @@
 
         <section class="aide-section">
             <h2>Article 6</h2>
-            <p>
+            <p class="dontindent">
                 L’affichage dans les espaces ouverts au public est soumis à l’autorisation du responsable du Coin de Lecture.
             </p>
         </section>
 
         <section class="aide-section">
             <h2>Article 7</h2>
-            <p>
+            <p class="dontindent">
                 Les utilisateurs de la bibliothèque sont responsables des livres ou des ouvrages qu’ils empruntent, de même qu’ils doivent prendre soin du matériel et des équipements du Coin de Lecture, y compris les instruments fournis pendant les cours de musique. En cas de perte ou dommages de toute pièce d'équipement, l'utilisateur devra payer intégralement et sans retard le coût du remplacement.
             </p>
             <p>
@@ -88,7 +88,7 @@
 
         <section class="aide-section">
             <h2>Article 8</h2>
-            <p>
+            <p class="dontindent">
                 Le prêt à domicile des livres est consenti pour une durée maximale de 2 semaines renouvelable sur demande écrite ou téléphonique une fois pour une même durée sous réserve que le livre ne soit pas sollicité par un autre usager. Le nombre maximal de livres empruntables moyennant une carte d’utilisateur est limité à 2 livres par enfant. Le retard de retour de livres est sanctionné par une amende de 2€ par livre et par semaine de retard pour un maximum de 4 semaines.
             </p>
             <p>
@@ -106,7 +106,7 @@
 
         <section class="aide-section">
             <h2>Article 9</h2>
-            <p>
+            <p class="dontindent">
                 Le prêt à domicile des livres est gratuit pendant la période indiquée à l’article 8. Ce délai est à observer strictement et les retards sont sanctionnés par une taxe de restitution tardive fixée au ‘Règlement-taxe’.
             </p>
             <p>
@@ -122,14 +122,14 @@
 
         <section class="aide-section">
             <h2>Article 10</h2>
-            <p>
+            <p class="dontindent">
                 La reproduction et l’utilisation des livres sont soumises au respect de la législation en vigueur, en particulier de la législation sur les droits d’auteur. Le Coin de Lecture ne saurait en aucun cas être tenu pour responsable d’un usage contrevenant à cette législation.
             </p>
         </section>
 
         <section class="aide-section">
             <h2>Article 11</h2>
-            <p>
+            <p class="dontindent">
                 Pour participer aux activités proposées par l’équipe du Coin de Lecture, il est obligatoire d’être membre. L’inscription est indispensable et ne sera validée qu’après paiement préalable par virement bancaire ou sur place en cash. L’inscription sera ensuite confirmée par mail. Toute demande d’annulation doit nous parvenir 2 semaines avant la date de l’atelier, 50% du coût d’inscription seront reversés. Veuillez noter que les absences et les annulations tardives ne sont pas remboursées.
             </p>
             <p>
@@ -145,14 +145,14 @@
 
         <section class="aide-section">
             <h2>Article 12</h2>
-            <p>
+            <p class="dontindent">
                 Tout utilisateur est responsable de ses effets personnels dans l'enceinte du Coin de Lecture. Ce dernier ne saurait en aucun cas être tenu responsable en cas de perte ou de vol occasionné dans ses locaux.
             </p>
         </section>
 
         <section class="aide-section">
             <h2>Article 13</h2>
-            <p>
+            <p class="dontindent">
                 Sans préjudice des peines plus fortes prévues par la loi, les infractions au présent règlement sont punies d’une peine de police.
             </p>
         </section>

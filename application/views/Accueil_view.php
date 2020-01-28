@@ -13,7 +13,7 @@
                     <h2>Faire un don</h2>
                 </div>
                 <br>
-                <p>Si vous souhaitez nous soutenir, vous pouvez nous faire un don en cliquant sur <a href="<?php echo base_url(); ?>Aide"><span>ce lien</span></a></p>
+                <p class="dontindent">Si vous souhaitez nous soutenir, vous pouvez nous faire un don en cliquant sur <a href="<?php echo base_url(); ?>Aide"><span>ce lien</span></a></p>
             </div>
             <div class="don-image image"></div>
 
@@ -62,7 +62,7 @@
                 <?php foreach($all as $livre)
                 {?>
                 <div class="accueil-livres-single">
-                    <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code;?>">
+                    <img src="<?php echo base_url().'assets/images/livres/'.$livre->Code.'.jpg';?>">
                     <p class="dontindent"><?php echo $livre->Title;?></p>
                 </div>
                 <?php 
