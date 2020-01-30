@@ -2,8 +2,8 @@ html{
     margin: 0; padding: 0;
     min-height: 100vh;
     font-size: 62.5%;
-    font-family: "Futura";
-    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 body{
@@ -19,7 +19,7 @@ body{
 
 h1 {
     font-family: "Milkshake";
-    font-weight: bolder;
+    font-weight: 900;
     margin: 20px 0 0 0;
     color: $base-color;
     font-size: 5rem;
@@ -40,7 +40,6 @@ h2{
     padding: 15px 30px 15px 30px;
     border-radius: 55px;
     background-color: $highlight-color;
-    white-space: nowrap;
     @include lg{
         font-size: 4rem;
     }
@@ -244,6 +243,34 @@ hr{
         }
     }
 }
+.don-image{
+    background: url("../images/photos/IMG_1085.jpg");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: -75px -20px;
+}
+.news-image{
+    background: url("../images/photos/IMG_1079.jpg");
+    background-size: cover;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+}
+.bibliotheque-image{
+    background: url("../images/photos/IMG_1058.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: -20px -120px;
+}
+.ouverture-image{
+    background: url("../images/photos/IMG_1039.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -125px 0px;
+}
 
 .h2title{
     display: flex;
@@ -252,6 +279,7 @@ hr{
     padding-top: 30px;
     h2{
         font-family: "Milkshake";
+        white-space: nowrap;
     }
     @include rwd(1365){
         padding:0;
@@ -302,10 +330,18 @@ hr{
             justify-content: end;
         }
     }
+}
 
-    video{
-        display: block;
-        margin: 40px auto;
+.video-wrapper{
+    position: relative;
+    margin: 40px auto;
+    width: 100%;
+    padding-top: 56.25%; /* To keep 16:9 aspect ratio */
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
     }
 }
