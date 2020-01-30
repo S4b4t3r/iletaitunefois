@@ -1,14 +1,23 @@
-.aide-section{
+.aide-section{  
+
     h2{
         background-color: #0000;
         text-decoration: underline;
         font-size: 2.4em;
         color:  $highlight-color;
     }
-    p{
-        margin-left: 0;
-        @include md(){
-            margin-left: 100px;
-        }
+
+    /*.programme-single {
+        border: solid #FFB46A 5px;
+        background: orange;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
     }
+
+    .programme-content {
+        width: 100%;
+        height: 100%;
+    }*/
 }

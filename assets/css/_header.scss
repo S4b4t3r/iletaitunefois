@@ -2,6 +2,7 @@
 header{
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: sticky;
@@ -35,18 +36,19 @@ header h2 {
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: space-between;
     }
 }
 
 .header-button {
     display: flex;
     align-items: center;
+
     text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
     color: white;
+    font-size: 2.25rem;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
     margin-bottom: .5em;
 }
 
@@ -94,18 +96,15 @@ header h2 {
 
 .test {
     z-index: 1;
-    transform: translateY(-100vh);
-    opacity: 0;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: $base-color;
-    overflow: scroll;
+        transform: translateY(-100vh);
+        opacity: 0;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: $base-color;
+        overflow: scroll;
     @include lg{
         display: none;
-    }
-    h2{
-        padding:0;
     }
 }
 
@@ -132,7 +131,6 @@ header h2 {
     margin-top: 0;
     margin-bottom: 1em;
     font-size: 38px;
-    font-family: 'Raleway', sans-serifhvbt;
     color: white;
     background: transparent;
 }
@@ -154,6 +152,8 @@ header h2 {
 
 .header-fill{
     flex-grow: 1;
+
+    display: none;
 }
 
 .header-logo {

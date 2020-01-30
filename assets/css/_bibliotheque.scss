@@ -14,8 +14,8 @@
 }
 
 .recherche-input {
-    font-size: 1.5em;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
     padding: 1em .75em;
     border: solid 1.5px $base-color;
     @include lg{
@@ -29,10 +29,10 @@
 }
 
 .recherche-submit {
+    font-family: 'Raleway', sans-serif;
     color: white;
     background: $highlight-color;
     font-size: 1.5em;
-    font-family: 'Raleway', sans-serif;
     padding: 1em .75em;
     border: none;
     cursor: pointer;

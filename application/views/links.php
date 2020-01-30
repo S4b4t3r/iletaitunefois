@@ -7,15 +7,15 @@
 <span class="header-button dropdownactivites" id="dropdownactivites">
     <a href="<?php echo base_url()?>Creches" class="header-button <?php echo (isset($creches)) ? 'active': '';?>">Crèches</a>
     <a href="<?php echo base_url()?>Singalong" class="header-button <?php echo (isset($singalong)) ? 'active': '';?>">Sing along</a>
-    <a href="<?php echo base_url()?>Ateliers" class="header-button <?php echo (isset($ateliers)) ? 'active': '';?>">Reading sessions</a>
+    <a href="<?php echo base_url()?>Ateliers" class="header-button <?php echo (isset($ateliers)) ? 'active': '';?>">Ateliers de lecture</a>
 </span>
 
-<a href="<?php echo base_url()?>Programme" class="header-button <?php echo (isset($programme)) ? 'active': '';?>">Events</a>
-<a href="<?php echo base_url()?>LangueMaternelle" class="header-button <?php echo (isset($languematernelle)) ? 'active': '';?>">Native language</a>
-<a href="<?php echo base_url()?>Photo" class="header-button <?php echo (isset($photo)) ? 'active': '';?>">Photo gallery</a>
-<a href="<?php echo base_url()?>Livredor" class="header-button <?php echo (isset($livredor)) ? 'active': '';?>">Guestbook</a>
-<a href="<?php echo base_url()?>Partenaires" class="header-button <?php echo (isset($partenaires)) ? 'active': '';?>">Partners</a>
-<a href="<?php echo base_url()?>Adhesion" class="header-button <?php echo (isset($adhesion)) ? 'active': '';?>">Membership</a>
+<a href="<?php echo base_url()?>Programme" class="header-button <?php echo (isset($programme)) ? 'active': '';?>">Programme du mois</a>
+<a href="<?php echo base_url()?>LangueMaternelle" class="header-button <?php echo (isset($languematernelle)) ? 'active': '';?>">Langue maternelle</a>
+<a href="<?php echo base_url()?>Photo" class="header-button <?php echo (isset($photo)) ? 'active': '';?>">Galerie photos</a>
+<a href="<?php echo base_url()?>Livredor" class="header-button <?php echo (isset($livredor)) ? 'active': '';?>">Livre d'or</a>
+<a href="<?php echo base_url()?>Partenaires" class="header-button <?php echo (isset($partenaires)) ? 'active': '';?>">Partenaires</a>
+<a href="<?php echo base_url()?>Adhesion" class="header-button <?php echo (isset($adhesion)) ? 'active': '';?>">Adhésion</a>
 <a href="<?php echo base_url()?>Coindelecture" class="header-button <?php echo (isset($lecture)) ? 'active': '';?>">Contact</a>
 <a href="<?php echo base_url()?>Newsletter" class="header-button <?php echo (isset($newsletter)) ? 'active': '';?>">Newsletter</a>
-<a href="<?php echo base_url()?>Reglement" class="header-button <?php echo (isset($reglement)) ? 'active': '';?>">Rules</a>
+<a href="<?php echo base_url()?>Reglement" class="header-button <?php echo (isset($reglement)) ? 'active': '';?>">Règlement</a>

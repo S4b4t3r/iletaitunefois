@@ -5,7 +5,7 @@
         <h1>Nos Activités</h1>
 
         <section>
-            <p>Notre Coin de Lecture dispose de livres en 26 langues.En plus de la lecture sur place, les parents peuvent également emprunter des livres (carte de membre à 30 EUR / année; 70 EUR / année pour crèches).</p>
+            <p>Notre Coin de Lecture dispose de livres en 26 langues. En plus de la lecture sur place, les parents peuvent également emprunter des livres (carte de membre à 30 EUR / année; 70 EUR / année pour crèches).</p>
             
             <p>Nous proposons aussi des ateliers de lecture, des projets et des sing along en plusieurs langues.</p>
             

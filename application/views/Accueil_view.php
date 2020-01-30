@@ -3,7 +3,9 @@
     <div class="content">
         <div>
             <h1>Il était<span> une fois...</span></h1>
-            <p> 'Il était une fois…' est une ASBL (Association Sans But Lucratif) situé au centre de Gasperich au Luxembourg, elle prend la forme d’une petite bibliothèque enfantine possédant des livres et autres formes de lecture dans pas moins de vingt-six langues différentes. L’association propose aussi régulièrement de nombreux ateliers de lecture multilingues ainsi que des découvertes musicales, réalisés par plus d’une vingtaine de bénévoles différents.</p>
+            <p>
+                'Il était une fois…' est une ASBL (Association Sans But Lucratif) situé au centre de Gasperich au Luxembourg, elle prend la forme d’une petite bibliothèque enfantine possédant des livres et autres formes de lecture dans pas moins de vingt-six langues différentes. L’association propose aussi régulièrement de nombreux ateliers de lecture multilingues ainsi que des découvertes musicales, réalisés par plus d’une vingtaine de bénévoles différents.
+            </p>
         </div>
         <section class="accueil-middle">
             <div class="accueil-don">
@@ -20,8 +22,8 @@
                     <h2>News - feed</h2>
                 </div>
                 <br>
-                <p class="dontindent">Si vous désirez rester au courant de nos <span>actualités</span>, vous pouvez vous abonner à notre fil <i>(news feed)</i></p>
-                <p><img src="<?php echo base_url() ?>/assets/images/icons/feed.svg" class="icon"><a>Ouvrir / S'abonner au feed</a></p>
+                <p class="dontindent">Si vous désirez rester au courant de nos <span>actualités</span>, vous pouvez visiter notre page Facebook</p>
+                <p><img src="<?php echo base_url() ?>/assets/images/icons/feed.svg" class="icon"><a href="https://www.facebook.com/iletaitunefois.asbl/" target="_blank">Visiter notre Facebook</a></p>
             </div>
             <div class="news-image image"></div>
 
@@ -47,8 +49,7 @@
 
                 <p><span>Jeudi:</span> de 16h30 à 18h</p>
 
-                <p><span>Samedi:</span> de 15h à 18h (voir la liste des samedis
-                    ouverts sur le programme du mois)</p>
+                <p><span>Samedi:</span> de 15h à 18h (voir la liste des samedis ouverts sur le programme du mois)</p>
             </div>
             <div class="ouverture-image image"></div>
         </section>
@@ -71,9 +72,9 @@
             <div class="h2title">
                 <h2>Video de présentation</h2>
             </div>
-            <div class="video-wrapper">
-                <iframe src="#"></iframe>
-            </div>
+            <video controls>
+                <source src="<?php echo base_url();?>assets/introduction.mp4" type="video/mp4">
+            </video>
         </section>
     </div>
 
