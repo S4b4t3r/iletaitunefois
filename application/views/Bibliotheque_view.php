@@ -1,7 +1,7 @@
 <div class="content-wrapper">
 
     <div class="langue">
-        <span>FR</span> | <a>EN</a>
+        <span>FR</span> | <a href="/en">EN</a>
     </div>
     <div class="content">
         <div>

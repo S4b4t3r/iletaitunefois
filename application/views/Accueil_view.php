@@ -1,11 +1,11 @@
 <div class="content-wrapper accueil-bg">
     <div class="langue">
-        <span>FR</span> | <a>EN</a>
+        <span>FR</span> | <a href="<?php echo base_url()?>Accueil/en">EN</a>
     </div>
     <div class="content">
         <div>
             <h1>Il était<span> une fois...</span></h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed dolores sequi, nam tempora reiciendis error, veniam adipisci nihil aliquid neque laudantium, sunt praesentium eveniet similique at corrupti molestiae incidunt pariatur?</p>
+            <p> 'Il était une fois…' est une ASBL (Association Sans But Lucratif) situé au centre de Gasperich au Luxembourg, elle prend la forme d’une petite bibliothèque enfantine possédant des livres et autres formes de lecture dans pas moins de vingt-six langues différentes. L’association propose aussi régulièrement de nombreux ateliers de lecture multilingues ainsi que des découvertes musicales, réalisés par plus d’une vingtaine de bénévoles différents.</p>
         </div>
         <section class="accueil-middle">
             <div class="accueil-don">
@@ -73,8 +73,8 @@
             <div class="h2title">
                 <h2>Video de présentation</h2>
             </div>
-            <video controls>
-                <source src="<?php echo base_url();?>assets/introduction.mp4" type="video/mp4">
-            </video>
+            <div class="video-wrapper">
+                <iframe src="#"></iframe>
+            </div>
         </section>
     </div>

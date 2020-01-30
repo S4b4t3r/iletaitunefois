@@ -6,6 +6,9 @@
         color:  $highlight-color;
     }
     p{
-        margin-left: 100px;
+        margin-left: 0;
+        @include md(){
+            margin-left: 100px;
+        }
     }
 }

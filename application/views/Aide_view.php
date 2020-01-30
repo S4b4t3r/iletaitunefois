@@ -24,7 +24,7 @@
 
         <section class="aide-section">
             <h2>Devenez bénévole:</h2>
-            <p>- Nous sommes à votre disposition au Coin de Lecture pour plus d'informations.</p>
+            <p class="dontindent">- Nous sommes à votre disposition au Coin de Lecture pour plus d'informations.</p>
         </section>
 
         <section class="aide-section">
